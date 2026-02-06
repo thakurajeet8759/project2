@@ -104,6 +104,7 @@ i{
     font-size: 5vw;
     font-weight: bold;
   }
+ 
 
 }
 main{
@@ -120,4 +121,9 @@ h2{
 img{
    height: 30vh;
   width: 15vw;
+}
+.image{
+  border: 5px solid black;
+  gap: 2vw;
+  margin: .2vw;
 }
