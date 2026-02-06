@@ -104,4 +104,25 @@ i{
     font-size: 5vw;
     font-weight: bold;
   }
+
+}
+main{
+  height: calc(100% - 15vh);
+  height: 40vh;
+  display: flex;
+  gap: 5vw;
+  background-color: #fd7600;
+}
+.pic{
+ 
+  text-align: center;
+  color: #00f0fd;
+}
+#pic1{
+  height: 25vh;
+  width: 22vw;
+}
+img{
+   height: 30vh;
+  width: 15vw;
 }
