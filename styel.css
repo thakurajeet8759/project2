@@ -12,6 +12,7 @@ header{
     justify-content:space-between;
     padding:0 2vw;
     border-bottom:0.1vh solid #891f1f;
+    border-radius: 1vw;
 }
 .logo{
     font-size:2.5vw;
@@ -62,17 +63,19 @@ header{
 }
 .products{
     width:100vw;
-    padding:4vh 3vw;
+    padding:2vh 3vw;
     display:grid;
     grid-template-columns:repeat(5, 1fr);
-    gap:2vw;
-}
+    gap: 1vw;
+    background-color: #F7F7FB;
+  }
 .card{
     position:relative;
     width:100%;
     height:35vh;
     overflow:hidden;
-    border-radius:1vw;
+    border-radius:2vw;
+    border: 1vh solid rebeccapurple;
 }
 .card img{
     width:100%;
@@ -94,6 +97,9 @@ header{
 .details p{
     font-size:1vw;
     text-align: center;
+}
+sup{
+  color: red;
 }
 @media (max-width: 768px){
 header{
@@ -130,11 +136,12 @@ header{
   margin-right: 2.5vw;
 }
 .products{
-     grid-template-columns:repeat(3, 1fr);
+     grid-template-columns:repeat(2, 1fr);
     gap:3vw;
 }
 .card{
-    height:35vh;
+    height:45vh;
+    width: 45vw;
 }
 .details h4{
     font-size:4vw;
